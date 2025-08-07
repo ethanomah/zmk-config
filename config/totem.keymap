@@ -59,30 +59,30 @@
         Base {
             label = "Base";
             bindings = <
-         &kp Q       &kp W       &kp E                  &kp R                   &kp T                     &kp Y      &kp U        &kp I        &kp O       &kp P
-         &hm LGUI A  &hm LALT S  &hm LCTRL D            &hm LSHIFT F            &kp G                     &kp H      &hm RSHFT J  &hm RCTRL K  &hm RALT L  &hm RGUI SEMICOLON
-&kp TAB  &kp Z       &kp X       &kp C                  &kp V                   &kp B                     &kp N      &kp M        &kp COMMA    &kp DOT     &kp SLASH           &kp SQT
-                                 &mt LEFT_SHIFT ESCAPE  &mt LEFT_ALT BACKSPACE  &mt LEFT_COMMAND SPACE    &lt 1 RET  &lt 2 BSPC   &kp MINUS
+         &kp Q       &kp W       &kp E                &kp R            &kp T          &kp Y      &kp U        &kp I        &kp O       &kp P
+         &hm LGUI A  &hm LALT S  &hm LCTRL D          &hm LSHIFT F     &kp G          &kp H      &hm RSHFT J  &hm RCTRL K  &hm RALT L  &hm RGUI SEMICOLON
+&kp TAB  &kp Z       &kp X       &kp C                &kp V            &kp B          &kp N      &kp M        &kp COMMA    &kp DOT     &kp SLASH           &kp SQT
+                                 &mt CAPSLOCK ESCAPE  &lt 2 BACKSPACE  &lt 1 SPACE    &lt 1 RET  &lt 2 BSPC   &kp MINUS
             >;
         };
 
         Nav {
             label = "Nav";
             bindings = <
-              &trans          &trans       &kp UP_ARROW  &trans     &kp LBRC    &kp RBRC     &kp NUMBER_7     &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
-              &kp LEFT_SHIFT  &kp LEFT     &kp DOWN      &kp RIGHT  &kp LBKT    &kp RBKT     &kp NUMBER_4     &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
-&kp LEFT_ALT  &trans          &kp PAGE_UP  &trans        &kp PG_DN  &kp LPAR    &kp RPAR     &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &trans
-                                           &trans        &trans     &trans      &lt 0 ENTER  &lt 2 BACKSPACE  &kp NUMBER_0
+              &trans          &trans       &kp UP_ARROW  &trans     &kp LBRC    &kp RBRC  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
+              &kp LEFT_SHIFT  &kp LEFT     &kp DOWN      &kp RIGHT  &kp LBKT    &kp RBKT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
+&kp LEFT_ALT  &trans          &kp PAGE_UP  &trans        &kp PG_DN  &kp LPAR    &kp RPAR  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &trans
+                                           &trans        &trans     &trans      &trans    &trans        &kp NUMBER_0
             >;
         };
 
         Sym {
             label = "Sym";
             bindings = <
-        &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET    &kp AMPERSAND    &kp KP_ASTERISK  &kp SQT  &kp DQT
-        &trans    &trans  &trans    &trans      &trans         &trans       &trans           &trans           &trans   &trans
-&trans  &trans    &trans  &trans    &trans      &trans         &kp UNDER    &kp EQUAL        &trans           &trans   &kp SLASH  &kp HOME
-                          &trans    &trans      &trans         &lt 0 ENTER  &lt 1 BACKSPACE  &trans
+        &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET      &kp AMPERSAND  &kp KP_ASTERISK  &kp MINUS  &kp EQUAL
+        &trans    &trans  &trans    &trans      &trans         &trans         &trans         &trans           &trans     &trans
+&trans  &trans    &trans  &trans    &trans      &trans         &kp BACKSLASH  &trans         &trans           &trans     &kp SLASH  &kp HOME
+                          &trans    &trans      &trans         &trans         &trans         &trans
             >;
         };
     };
